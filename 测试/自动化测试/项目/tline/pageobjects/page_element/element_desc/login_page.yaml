@@ -1,0 +1,78 @@
+LoginPage:
+  dec: 登录页面
+  locators:
+    -
+      desc: 选择页跳转链接
+      name: login_text
+      type: id
+      value: com.liukena.android:id/logintext
+    -
+      desc: 未登录的首页 - 我的按钮
+      name: me_btn
+      type: id
+      value: com.liukena.android:id/rbtn_me
+    -
+      desc: 未登录的首页 - 我的按钮 - 登录按钮
+      name: me_ok_btn
+      type: id
+      value: com.liukena.android:id/ok_text
+    -
+      desc: 密码登录页面 - 手机号输入框
+      name: phone_input
+      type: id
+      value: com.liukena.android:id/etwd_phone
+    -
+      desc: 密码登录页面 - 密码输入框
+      name: pwd_input
+      type: id
+      value: com.liukena.android:id/etwd_password
+    -
+      desc: 密码登录页面 - 登录按钮
+      name: login_btn
+      type: id
+      value: com.liukena.android:id/tv_login_immediately
+    -
+      desc: 微信登录按钮
+      name: wechat_login
+      type: id
+      value: com.liukena.android:id/wechat_login_btn
+    -
+      desc: 微信确认按钮
+      name: ok_btn
+      type: id
+      value: com.liukena.android:id/ok_text
+    -
+      desc: 微信账号输入框
+      name: wechat_name_input
+      type: xpath
+      value: //android.widget.LinearLayout[@resource-id='com.tencent.mm:id/ch3']/android.widget.EditText[@resource-id='com.tencent.mm:id/ji']
+    -
+      desc: 微信账号密码框
+      name: wechat_pwd_input
+      type: xpath
+      value: //android.widget.LinearLayout[@resource-id='com.tencent.mm:id/ch4']/android.widget.EditText[@resource-id='com.tencent.mm:id/ji']
+    -
+      desc: 微信中的登录按钮
+      name: login_wechat
+      type: id
+      value: com.tencent.mm:id/ch6
+    -
+      desc: 微信登录失败重试
+      name: wechat_login_retry
+      type: id
+      value: com.liukena.android:id/ok_text
+    -
+      desc: 设置按钮
+      name: setting_btn
+      type: id
+      value: com.liukena.android:id/btn_setting
+    -
+      desc: 退出按钮
+      name: logout_btn
+      type: id
+      value: com.liukena.android:id/tuichu_linear
+    -
+      desc: 退出确认按钮
+      name: logout_ok
+      type: id
+      value: com.liukena.android:id/ok_text
